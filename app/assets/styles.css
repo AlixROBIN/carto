@@ -1,0 +1,16 @@
+/* assets/style.css */
+.dropdown-container .Select-menu-outer {
+    font-size: 16px; /* Augmente la taille de la police des options des dropdowns */
+}
+
+.dropdown-container .Select-option {
+    padding: 10px 15px; /* Ajoute du padding vertical entre les options des dropdowns */
+}
+
+#recap {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}

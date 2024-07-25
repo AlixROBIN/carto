@@ -1,0 +1,110 @@
+/* styles.css */
+
+body {
+    background-color: #add8e6; /* Bleu ciel */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.header img {
+    height: 100px;
+}
+
+.header h1 {
+    flex: 1;
+    text-align: center;
+    font-size: 2em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.container label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url('/assets/fonts/GothamBook.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'GothamBook', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'GothamBook', sans-serif;
+}
+
+label, button, input, select, textarea {
+    font-family: 'GothamBook', sans-serif;
+}
+
+.info-div-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    max-height: 200px; /* Taille initiale */
+    overflow: auto; /* Permet le défilement */
+    resize: both; /* Permet de redimensionner */
+}
+
+.info-div-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.info-div-content p {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.info-div-content a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.info-div-content a:hover {
+    text-decoration: underline;
+}
+/* Toast Styles */
+.toast-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1050;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
